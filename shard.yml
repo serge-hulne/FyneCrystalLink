@@ -1,0 +1,17 @@
+name: rt
+version: 0.1.0
+
+authors:
+  - serge <serge.hulne@gmail.com>
+
+targets:
+  rt:
+    main: src/rt.cr
+
+crystal: 1.6.0
+
+license: MIT
+
+dependencies:
+  router:
+    github: tbrand/router.cr
